@@ -683,6 +683,11 @@ section{
       margin: 2rem;
       font-size: 2rem;
     }
+
+    .home img {
+        width: 100%;
+        height: auto;
+    }
   
     .home{
       background-position: left;
