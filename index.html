@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -160,44 +161,77 @@ Learn incredible facts, see rare creatures up close, and enjoy a fun, educationa
     <section class="animal" id="animal">
 
         <h2 class="heading">animals</h2>
-
+    
         <div class="box-container">
-
+    
             <div class="box">
                 <img src="images/animal_1.jpg" alt="">
                 <div class="content">
-                    <h3>cameleon</h3>
-                    <a href="#" class="btn">see datails</a>
+                    <h3>chameleon</h3>
+                    <a href="#!" class="btn" onclick="openModal('chameleon')">see details</a>
                 </div>
             </div>
-
+    
             <div class="box">
                 <img src="images/animals_2.jpg" alt="">
                 <div class="content">
                     <h3>zebra</h3>
-                    <a href="#" class="btn">see datails</a>
+                    <a href="#!" class="btn" onclick="openModal('zebra')">see details</a>
                 </div>
             </div>
-
+    
             <div class="box">
                 <img src="images/animals_3.jpg" alt="">
                 <div class="content">
                     <h3>giraffe</h3>
-                    <a href="#" class="btn">see datails</a>
+                    <a href="#!" class="btn" onclick="openModal('giraffe')">see details</a>
                 </div>
             </div>
-
+    
             <div class="box">
                 <img src="images/animals_4.jpg" alt="">
                 <div class="content">
                     <h3>monkey</h3>
-                    <a href="#" class="btn">see datails</a>
+                    <a href="#!" class="btn" onclick="openModal('monkey')">see details</a>
                 </div>
             </div>
-
+    
         </div>
-
+    
     </section>
+    
+    <!-- Animal Modals -->
+    <div class="modal" id="modal-chameleon">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('chameleon')">&times;</span>
+        <h2>Chameleon</h2>
+        <p>Chameleons are unique reptiles known for changing color and catching prey with their long, sticky tongues. They mostly live in trees and shrubs.</p>
+      </div>
+    </div>
+    
+    <div class="modal" id="modal-zebra">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('zebra')">&times;</span>
+        <h2>Zebra</h2>
+        <p>Zebras are wild African equines with black and white stripes. Each zebra's stripe pattern is unique, and they live in herds in the savannas.</p>
+      </div>
+    </div>
+    
+    <div class="modal" id="modal-giraffe">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('giraffe')">&times;</span>
+        <h2>Giraffe</h2>
+        <p>Giraffes are the tallest land animals, known for their long necks and legs. They eat leaves from tall trees and live in open woodlands.</p>
+      </div>
+    </div>
+    
+    <div class="modal" id="modal-monkey">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('monkey')">&times;</span>
+        <h2>Monkey</h2>
+        <p>Monkeys are intelligent primates that live in trees or on the ground. They are social animals and can be seen swinging, playing, or grooming each other.</p>
+      </div>
+    </div>
 
     <!-- end -->
 
